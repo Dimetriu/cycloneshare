@@ -22,6 +22,7 @@ group :development, :test do
     gem lib, git: "https://github.com/rspec/#{lib}.git", branch: 'master'
   end
   gem 'rspec_junit_formatter'
+  gem 'faker', git: 'https://github.com/stympy/faker.git', branch: 'master'
 end
 
 group :development do
