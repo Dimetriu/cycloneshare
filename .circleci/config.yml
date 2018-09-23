@@ -60,7 +60,7 @@ jobs:
 
 workflows:
   version: 2
-  foobox:
+  cycloneshare:
     jobs:
       - build:
         context: cycloneshare
