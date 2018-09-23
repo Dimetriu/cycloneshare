@@ -12,7 +12,7 @@ gem 'uglifier', '>= 1.3.0'
 
 # gem 'coffee-rails', '~> 4.2'
 gem 'jbuilder', '~> 2.5'
-# gem 'redis', '~> 4.0'
+gem 'redis', '~> 4.0'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'bootsnap', '>= 1.1.0', require: false
 
@@ -26,6 +26,8 @@ gem 'carrierwave', '~> 1.2', '>= 1.2.3'
 gem 'mini_magick'
 gem 'dragonfly', '~> 1.1', '>= 1.1.5'
 gem 'cancancan', '~> 2.3'
+gem 'sidekiq', '~> 5.2', '>= 5.2.2'
+gem 'closure_tree'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
