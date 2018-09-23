@@ -16,6 +16,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'bootsnap', '>= 1.1.0', require: false
 
+gem 'haml', '~> 5.0', '>= 5.0.4'
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   %w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].each do |lib|
