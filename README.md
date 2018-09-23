@@ -1,4 +1,6 @@
-# README
+# Cycloneshare
+
+[![CircleCI](https://circleci.com/gh/Dimetriu/cycloneshare.svg?style=svg)](https://circleci.com/gh/Dimetriu/cycloneshare)
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
