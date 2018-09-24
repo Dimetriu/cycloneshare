@@ -17,6 +17,7 @@ gem 'redis', '~> 4.0'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'haml', '~> 5.0', '>= 5.0.4'
+gem 'haml-rails'
 gem 'simple_form', '~> 4.0', '>= 4.0.1'
 gem 'devise', '~> 4.5'
 gem 'omniauth-facebook', '~> 5.0'
