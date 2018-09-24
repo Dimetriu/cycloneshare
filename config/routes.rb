@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
-  root 'home#index'
+  get '/:locale' => 'home#index'
 
-  devise_for :users
+  root 'home#index'
+  scope '/:locale' do
+    devise_for :users, skip: :omniauth_callbacks
+  end
 end
