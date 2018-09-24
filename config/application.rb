@@ -22,7 +22,9 @@ module CycloneShare
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.2
 
-    config.template_engine = :haml
+    I18n.load_path += Dir[Rails.root.join('lib', 'locale', '*.{rb,yml}')]
+
+    config.template_engine =:haml
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
